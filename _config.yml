@@ -1,0 +1,18 @@
+name:        Michael Baird - Developer
+description: Ruby / Rails / DevOps
+url:         http://michaelbaird.co.uk
+markdown:    kramdown
+highlighter: pygments
+permalink:   /:categories/:title/
+exclude:    [
+              'gulpfile.js',
+              'node_modules',
+              'npm-debug.log',
+              'package.json'
+            ]
+defaults:
+  -
+    scope:
+      path:   ""
+    values:
+      layout: "post"

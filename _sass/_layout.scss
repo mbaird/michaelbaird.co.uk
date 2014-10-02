@@ -1,0 +1,44 @@
+header {
+  padding: 4em 2em;
+}
+
+section, footer {
+  padding: 4em 2em;
+}
+
+@media screen and (min-width: 650px) {
+  header {
+    padding: 6em 4em;
+  }
+
+  section {
+    padding: 4em;
+  }
+
+  footer {
+    padding: 3em 4em;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  header {
+    padding: 7em;
+  }
+
+  article, #post-header div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #post-header {
+    padding: 5em 7em;
+  }
+
+  section {
+    padding: 5em 7em;
+  }
+
+  footer {
+    padding: 3em 7em;
+  }
+}

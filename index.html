@@ -1,0 +1,48 @@
+---
+layout: default
+title:
+---
+
+<section>
+  <h4>About</h4>
+
+  <p>My name is Michael Baird, and I'm a developer based in Scotland.</p>
+
+  <p>I've been working for the last year in Dundee for <a href="http://outplay.com">Outplay Entertainment</a> as a Server Engineer &amp; Developer, after graduating with first class honours in Applied Computing from the University of Dundee.</p>
+
+  <p>Some of the things I've built can be found over at <a href="https://github.com/mbaird">GitHub</a>. If you'd like, you can also check out my <a href="/static/resume.pdf">CV</a>.</p>
+
+</section>
+
+<section>
+  <h4>Work</h4>
+
+  <ul>
+    <li>
+      <p><a href="http://thetravelled.co">thetravelled.co</a><br/>
+      <span>Find great travelling experiences</span></p>
+    </li>
+  </ul>
+
+  <h5 class="no-caps"><em>Fun</em></h5>
+
+  <ul>
+    <li>
+      <p><a href="http://dwightquot.es">dwightquot.es</a><br/>
+      <span>Assistant <em>to</em> the regional manager.</span></p>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h4>Notes</h4>
+  <ol>
+    {% for post in site.posts %}
+      <li>
+        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
+
+

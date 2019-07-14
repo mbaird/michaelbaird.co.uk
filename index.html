@@ -1,47 +1,31 @@
----
-layout: default
-title:
----
+<!doctype html>
+<html lang="en">
 
-<section>
-  <h4>About</h4>
+<head>
+  <meta charset="utf-8">
 
-  <p>Scottish developer working in London.</p>
+  <title>Michael Baird</title>
 
-  <p>Changing the way people rent short-term retail space with the folks at <a href="http://appearhere.co.uk">Appear Here</a>.</p>
+  <meta name="description" content="Scottish developer working in London. Currently leading engineering at Koru Kids, where we're simplifying access to quality childcare.">
+  <meta name="author" content="Michael Baird">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <p>Some of the things I've built can be found over at <a
-    href="https://github.com/mbaird">GitHub</a>.
-</section>
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-<section>
-  <h4>Work</h4>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
 
-  <ul>
-    <li>
-      <p><a href="http://thetravelled.co">thetravelled.co</a><br/>
-      <span>Find great travelling experiences</span></p>
-    </li>
-  </ul>
+<body>
+  <section class="content">
+    <h1>Michael Baird</h1>
 
-  <h5 class="no-caps"><em>Fun</em></h5>
+    <p>I'm currently leading engineering at <a href="https://www.korukids.co.uk">Koru Kids</a>, where we're simplifying access to quality childcare. <a href="http://korukids.co.uk/careers">Come help us</a> build something great!</p>
 
-  <ul>
-    <li>
-      <p><a href="http://dwightquot.es">dwightquot.es</a><br/>
-      <span>Assistant <em>to</em> the regional manager.</span></p>
-    </li>
-  </ul>
-</section>
+    <p>Some of the things I've worked on can be found over at <a href="https://github.com/mbaird">GitHub</a>.</p>
 
-<section>
-  <h4>Notes</h4>
-  <ol>
-    {% for post in site.posts %}
-      <li>
-        <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-      </li>
-    {% endfor %}
-  </ol>
-</section>
-
+    <p class="icon">🏴󠁧󠁢󠁳󠁣󠁴󠁿</p>
+  </section>
+</body>
+</html>
